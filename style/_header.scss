@@ -1,0 +1,96 @@
+.header {
+    width: 100%;
+
+    &__nav {
+        min-height: 11rem;
+        display: flex;
+        background-color: #fff;
+    }
+
+    &__logo {
+        width: 30%;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__nav__hamburger-btn {
+        display: none;
+    }
+
+    &__nav__hamburger-line {
+        height: 3px;
+        width: 28px;
+        margin-bottom: 5px;
+        background-color: $nav-color;
+    }
+
+    &__nav-items {
+        width:45%;
+        margin-left:25%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    &__nav-item {
+        list-style: none;
+
+        a {
+            font-size: 1.4rem;
+            text-decoration: none;
+            color: $nav-color;
+            padding-bottom: 0.4rem;
+
+            &:hover {
+                color:$nav-hover;
+                border-bottom: 2px solid $nav-hover;
+            }
+        }  
+    }
+
+    &__baner {
+        background-image: url("/img/hero.jpg");
+        background-size: cover;
+        background-position: 0 center;
+        background-repeat: no-repeat;
+        min-width: 100%;
+        height: 56rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 4px solid $nav-hover;
+        width: 100%;
+    }
+
+    &__baner__wraper {
+        max-width: 100.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__baner__title {
+        font-size: 10rem;
+        color:#fff;
+        text-align: center;
+        font-family: 'Calligraffitti', cursive;
+        width: 100%;
+    }
+
+    &__baner__description {
+        font-size: 1.6rem;
+        color:#fff;
+        margin: 3rem 2rem;
+    }
+
+    &__baner__line {
+        background-color: #fff;
+        height: 1px;
+        width: 40px;
+        vertical-align:middle;
+    }
+}
+

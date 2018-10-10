@@ -1,0 +1,47 @@
+.gallery {
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 15%;
+
+        img {
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    
+    &__header {
+        display: flex;
+        align-items: center;
+        padding: 5rem 0;
+    }
+    
+    &__header-title {
+        color: #3b3b3b;
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    &__header-separator {
+        width: 14rem;
+        height: 1px;
+        background-color: #b7b7b7;
+        margin-left: 2rem;
+    }
+
+    &__main-container {
+        display: flex;
+    }
+
+    &__main-container__small-pic-container {
+        display: flex;
+    }
+
+    &__container__doble-pic-container {
+
+        img {
+            display: block;
+        }
+    }
+}

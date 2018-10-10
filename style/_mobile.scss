@@ -1,0 +1,281 @@
+    // max:1168px
+
+@media screen and (max-width: 1168px) {
+    .header {
+        &__nav {
+            padding: 0 3rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            max-width: 100%;
+        }
+
+        &__logo {
+            width: 100%;
+    
+            img {
+                margin: 0 auto;
+            }
+        }
+
+        &__nav-items {
+            width: 100%;
+            justify-content: space-evenly;
+            margin: 0;
+        }
+
+        &__baner__title {
+            font-size: 7rem;
+        }
+    }
+
+    .menu {
+        
+        &__article-wrapper {
+            max-width: 100%;
+        }
+
+        &__item-separator {
+            width: 5rem;
+            margin: 1rem 3rem;
+        }
+
+        &__show-more {
+            max-width: 100%;
+        }
+    }
+
+    .slider {
+
+        &__header {
+            max-width: 100%;
+            padding: 0 9rem 0 3rem;
+        }
+
+        &__items {
+            max-width: 100%;
+            padding: 3rem;
+            justify-content: center;
+        }
+
+        &__item {
+            flex-basis: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 40rem;
+            padding: 0 1rem 3rem;
+        }
+        
+        &__item-desc{
+            max-width: 23rem;
+        }
+    }
+
+    .gallery {
+       
+        &__header {
+            max-width: 100%;
+            padding-left: 3rem;
+        }
+
+        &__main-container {
+            flex-wrap: wrap;
+            max-width: 100%;
+            width: 100%;
+        }
+
+        &__container_main-pic {
+            img {
+                display: none;
+            }
+        }
+
+        &__main-container__small-pic-container {
+            flex-wrap: wrap;
+            min-width: 100vw;
+            padding: 0 3rem;
+            justify-content: center;
+    
+        }
+
+    }
+
+    .footer {
+        &__container {
+            max-width: 100%;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        &__box {
+            flex-basis: 50%;
+            text-align: center;
+            padding-bottom: 3rem;
+
+        }
+    }
+}
+
+// max 768px
+
+@media screen and (max-width:768px) {
+
+    .header {
+        
+        &__baner__title {
+                font-size: 5rem;
+        }
+    }
+
+    .menu {
+
+        &__article-wrapper {
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__left-list, &__right-list {
+            max-width: 100%;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 3rem;
+            justify-content: center;
+        }
+
+    }
+}
+
+// max 600px
+
+@media screen and (max-width:600px) {
+    .header {
+        &__nav {
+            display: flex;
+            min-height: 6rem;
+            padding-top: 1.5rem;
+        }
+
+        &__logo {
+            width: 80%;
+            padding-bottom: 1.5rem;
+
+            img {
+                margin: 0;
+            }
+        }
+
+        &__nav__hamburger-btn {
+            display: block;
+            padding-bottom: 1.5rem;
+
+        }
+
+        &__nav-item {
+            display: none;
+        }
+
+
+        &__baner__title {
+                font-size: 4rem;
+        }
+    }
+
+    .slider {
+        &__header {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+
+        &__header-title {
+            margin-left: 3rem;
+        }
+
+        &__header-control {
+            margin: 3rem auto;
+            width: 100%;
+            justify-content: center;
+            
+        }
+    }
+
+    .footer {
+        &__container {
+            flex-wrap: wrap;
+        }
+
+        &__box {
+            flex-basis: 100%;
+            text-align: center;
+            padding-bottom: 3rem;
+        }
+    }
+}
+
+//max 480px
+
+@media screen and (max-width: 480px) {
+    .header {
+        &__baner__title {
+                font-size: 3rem;
+        }
+
+        &__baner__description {
+            width: 50%;
+            text-align: center;
+        }
+    }
+    .menu {
+        &__item-separator {
+            width: 1rem;
+        }
+    }
+
+    .slider {
+        &__header-separator {
+            width: 8rem;;
+        }
+    }
+
+    .gallery {
+        img {
+            width: 310px;
+        }
+
+        &__header-separator {
+            width: 8rem;
+        }
+    }
+
+}
+
+// 320 px
+
+@media screen and (max-width: 320px) {
+    .slider {
+        &__header-separator {
+            width: 6rem;
+        }
+    }
+
+    .gallery {
+        &__header-separator {
+            width: 6rem;
+        }
+    }
+
+}
+
+.show {
+    display: block;
+    width:100%;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: $nav-color;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+

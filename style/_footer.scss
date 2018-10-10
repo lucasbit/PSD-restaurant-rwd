@@ -1,0 +1,58 @@
+.footer {
+    width: 100%;
+    min-height: 30rem;
+    background: #3b3b3b;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // height: inherit;
+        padding-top:5rem;
+        
+    }
+
+    &__box {
+
+       min-width:20%;
+
+            span,
+            h4,
+            a,
+             {
+                width: 100%;
+                display: block;
+            }
+
+            span {
+                color: #fff;
+                font-size: 1.6rem;
+                line-height: 32px;
+                letter-spacing: 1px;
+
+            }
+
+            img {
+                padding-bottom: 2rem;
+            }
+        }
+
+    &__box-title {
+        color: #fff;
+        font-size: 1.6rem;
+        line-height: 32px;
+        letter-spacing: 1px;
+    }
+
+    &__box-link {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.6rem;
+        line-height: 32px;
+        letter-spacing: 1px;
+
+        &:hover{
+            opacity: 0.6;
+        }
+    }
+}

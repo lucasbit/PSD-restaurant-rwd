@@ -1,0 +1,135 @@
+.menu {
+
+    background-color: #fff;
+    
+
+    &__title-wrapper {
+        margin: 0 auto;
+        background-color: $nav-hover;
+        width: 15rem;
+        height: 8rem;
+        position: relative;
+    }
+
+    &__title {
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+        padding-top: 1rem;
+
+    }
+    
+    &__arrow {
+        width: 0; 
+        height: 0; 
+        border-left: 7rem solid transparent;
+        border-right: 7rem solid transparent;
+        border-bottom: 2rem solid #fff;
+        position:absolute;
+        // left:5px;
+        // top:62px;
+        left:0.5rem;
+        top:6.1rem;
+    }
+
+    &__article-wrapper {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        // height: 100rem;
+        width: 100%;
+        
+    
+    }
+
+    &__left-list {
+        width:42%;
+        margin:2%;
+        display: flex;
+        justify-content: flex-start;
+       
+        
+
+        ul {
+            list-style: none;
+        }
+    }
+
+    &__right-list {
+        width:42%;
+        margin:2%;
+        display: flex;
+        justify-content: flex-start;
+
+        ul {
+            list-style: none;
+        }
+    }
+
+    &__item-info {
+        display: flex;
+        margin-top: 2.5rem;
+    }
+
+    &__item-name {
+        color: #545454;
+        font-size: 16px;
+        background: #fff;
+        width: 18rem;
+    }
+
+    &__item-desc {
+        color: #b7b7b7;
+        font-size: 12px;
+        font-style: italic;
+        letter-spacing: 1px;
+    }
+
+    &__item-separator {
+        height: 1px;
+        width: 14rem;
+        background-color: #b7b7b7;
+        margin: 1rem 5rem;
+    }
+
+    &__item-price {
+        color: #555;
+        font-size: 16px;
+    }
+
+    &__show-more__btn{
+        margin: 0 auto;
+        border: 1px solid #d7d5d5;
+        padding: 10px 15px;
+        border: 1px solid #d7d5d5;
+        color: #b7b7b7;
+        font-family: "aleo-regular", arial;
+        font-size: 14px;
+        letter-spacing: 1px;
+        background-color: #fff;
+        display: block; 
+    }
+
+    &__show-more-arrow-up {
+        width: 0; 
+        height: 0; 
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid #d7d5d5;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    &__show-more-arrow-down {
+        width: 0; 
+        height: 0; 
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #d7d5d5;
+        margin: 0 auto;
+    }
+
+    &__hidden {
+        display: none;
+    }
+}
