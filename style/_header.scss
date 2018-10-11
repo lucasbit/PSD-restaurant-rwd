@@ -14,11 +14,11 @@
         align-items: center;
     }
 
-    &__nav__hamburger-btn {
+    &__nav-mobile-btn {
         display: none;
     }
 
-    &__nav__hamburger-line {
+    &__nav-mobile-line {
         height: 3px;
         width: 28px;
         margin-bottom: 5px;
@@ -64,7 +64,7 @@
         width: 100%;
     }
 
-    &__baner__wraper {
+    &__baner-wrapper {
         max-width: 100.5rem;
         display: flex;
         justify-content: center;
@@ -72,7 +72,7 @@
         flex-wrap: wrap;
     }
 
-    &__baner__title {
+    &__baner-title {
         font-size: 10rem;
         color:#fff;
         text-align: center;
@@ -80,13 +80,13 @@
         width: 100%;
     }
 
-    &__baner__description {
+    &__baner-desc {
         font-size: 1.6rem;
         color:#fff;
         margin: 3rem 2rem;
     }
 
-    &__baner__line {
+    &__baner-line {
         background-color: #fff;
         height: 1px;
         width: 40px;

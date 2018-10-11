@@ -25,14 +25,14 @@
             margin: 0;
         }
 
-        &__baner__title {
+        &__baner-title {
             font-size: 7rem;
         }
     }
 
     .menu {
         
-        &__article-wrapper {
+        &__list-wrapper {
             max-width: 100%;
         }
 
@@ -124,20 +124,20 @@
 
     .header {
         
-        &__baner__title {
+        &__baner-title {
                 font-size: 5rem;
         }
     }
 
     .menu {
 
-        &__article-wrapper {
+        &__list-wrapper {
             display:flex;
             flex-wrap: wrap;
             justify-content: center;
         }
 
-        &__left-list, &__right-list {
+        &__list-left, &__list-right {
             max-width: 100%;
             width: 100%;
             margin: 0 auto;
@@ -167,7 +167,7 @@
             }
         }
 
-        &__nav__hamburger-btn {
+        &__nav-mobile-btn {
             display: block;
             padding-bottom: 1.5rem;
 
@@ -178,7 +178,7 @@
         }
 
 
-        &__baner__title {
+        &__baner-title {
                 font-size: 4rem;
         }
     }
@@ -219,11 +219,11 @@
 
 @media screen and (max-width: 480px) {
     .header {
-        &__baner__title {
+        &__baner-title {
                 font-size: 3rem;
         }
 
-        &__baner__description {
+        &__baner-desc {
             width: 50%;
             text-align: center;
         }
