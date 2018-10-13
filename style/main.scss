@@ -1,4 +1,4 @@
-@import "./variables";
+@import "./helpers";
 @import "./header";
 @import "./menu";
 @import "./slider";
@@ -24,9 +24,7 @@ html {
     width: 110rem;
 }
 
-.fa-star {
-    color:gold;
-}
+
 
 
 

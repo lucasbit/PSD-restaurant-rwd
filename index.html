@@ -17,7 +17,7 @@
     <header class="header">
         <nav class="header__nav wrapper">
             <div class="header__logo">
-                <img src="./img/logo.png" alt="header logo">
+                <img src="./img/logo.png" alt="">
             </div>
             <div class="header__nav-mobile-btn">
                 <div class="header__nav-mobile-line"></div>
@@ -158,32 +158,26 @@
     <!-- section slider -->
     <section class="slider" id="slider">
         <div class="slider__header wrapper">
-            <div class="slider__header-left">
-                <h2 class="slider__header-title">Featured Dishes</h2>
-                <div class="slider__header-separator"></div>
-            </div>
-            <div class="slider__header-control">
-                <div class="slider__header-arrow-left" id="sliderArrowLt"></div>
-                <div class="slider__header-arrow-right" id="sliderArrowRt"></div>
-            </div>
+            <h2 class="slider__header-title">Featured Dishes</h2>
+            <div class="slider__header-separator"></div>
         </div>
         <div class="slider__items wrapper">
             <div class="slider__item" id="sliderItem1">
-                <img src="./img/dish1.jpg" alt="dish">
+                <img src="./img/dish1.jpg" alt="fish">
                 <div class="slider__item-desc">
                     <h4 class="slider__item-name">Daute irure dolor</h4>
                     <span class="slider__item-price">$24</span>
                     <div class="slider__item-stars">
-                            <span class="fas fa-star fa-xs"></span>
-                            <span class="fas fa-star fa-xs"></span>
-                            <span class="fas fa-star fa-xs"></span>
-                            <span class="fas fa-star fa-xs"></span>
-                            <span class="fas fa-star fa-xs"></span>
+                        <span class="fas fa-star fa-xs"></span>
+                        <span class="fas fa-star fa-xs"></span>
+                        <span class="fas fa-star fa-xs"></span>
+                        <span class="fas fa-star fa-xs"></span>
+                        <span class="fas fa-star fa-xs"></span>
                     </div>
                 </div>
             </div>
             <div class="slider__item" id="sliderItem2">
-                <img src="./img/dish2.jpg" alt="dish">
+                <img src="./img/dish2.jpg" alt="grill">
                 <div class="slider__item-desc">
                     <h4 class="slider__item-name">Lorem, ipsum dolor</h4>
                     <span class="slider__item-price">$12</span>
@@ -197,7 +191,7 @@
                 </div>
             </div>
             <div class="slider__item" id="sliderItem3">
-                <img src="./img/dish3.jpg" alt="dish">
+                <img src="./img/dish3.jpg" alt="tourkey">
                 <div class="slider__item-desc">
                     <h4 class="slider__item-name">Daute irure dolor</h4>
                     <span class="slider__item-price">$45</span>
@@ -211,7 +205,7 @@
                 </div>
             </div>
             <div class="slider__item" id="sliderItem4">
-                <img src="./img/dish4.jpg" alt="dish">
+                <img src="./img/dish4.jpg" alt="pizza">
                 <div class="slider__item-desc">
                     <h4 class="slider__item-name">Carao irure fahes</h4>
                     <span class="slider__item-price">$56</span>
@@ -232,27 +226,27 @@
             <h2 class="gallery__header-title">The Gallery</h2>
             <div class="gallery__header-separator"></div>
         </div>
-        <div class="gallery__main-container wrapper">
-            <div class="gallery__container_main-pic">
+        <div class="gallery__container-main wrapper">
+            <div class="gallery__container-big-pic">
                 <a href="#">
-                    <img src="./img/img1.jpg" alt="food">
+                    <img class="gallery__image" src="./img/img1.jpg" alt="pizza">
                 </a>
             </div>
-            <div class="gallery__main-container__small-pic-container">
-                <div class="gallery__container__doble-pic-container">
+            <div class="gallery__container-small-pic">
+                <div class="gallery__container-doble-pic">
                     <a href="#">
-                        <img src="./img/img2.jpg" alt="food">
+                        <img class="gallery__image" src="./img/img2.jpg" alt="pasta">
                     </a>
                     <a href="#">
-                        <img src="./img/img3.jpg" alt="food">
+                        <img class="gallery__image" src="./img/img3.jpg" alt="rice">
                     </a>
                 </div>
-                <div class="gallery__container__doble-pic-container">
+                <div class="gallery__container-doble-pic">
                     <a href="#">
-                        <img src="./img/img4.jpg" alt="food">
+                        <img class="gallery__image" src="./img/img4.jpg" alt="pasta">
                     </a>
                     <a href="#">
-                        <img src="./img/img5.jpg" alt="food">
+                        <img class="gallery__image" src="./img/img5.jpg" alt="grill food">
                     </a>
                 </div>
             </div>
@@ -263,26 +257,34 @@
         <div class="footer__container wrapper">
             <div class="footer__box">
                 <h4 class="footer__box-title">New York Restaurant</h4>
-                <span>3926 Anmoore Road</span>
-                <span>New York, NY 10014</span>
-                <h4 class="footer__box-title">718-749-1714</h4>
+                <span class="footer__box-info">3926 Anmoore Road</span>
+                <span class="footer__box-info">New York, NY 10014</span>
+                <span class="footer__box-title">718-749-1714</span>
             </div>
             <div class="footer__box">
                 <h4 class="footer__box-title">Paris Restaurant</h4>
-                <span>3926 Anmoore Road</span>
-                <span>New York, NY 10014</span>
-                <h4 class="footer__box-title">718-749-1714</h4>
+                <span class="footer__box-info">3926 Anmoore Road</span>
+                <span class="footer__box-info">New York, NY 10014</span>
+                <span class="footer__box-title">718-749-1714</span>
             </div>
+            <ul class="footer__box">
+                <li class="footer__list-item">
+                    <a class="footer__box-link" href="#">Blog</a>
+                </li>
+                <li class="footer__list-item">
+                    <a class="footer__box-link" href="#">Careers</a>
+                </li>
+                <li class="footer__list-item">
+                    <a class="footer__box-link" href="#">Privacy Policy</a>
+                </li>
+                <li class="footer__list-item">
+                    <a class="footer__box-link" href="#">Contact</a>
+                </li>  
+            </ul>
             <div class="footer__box">
-                <a class="footer__box-link" href="#">Blog</a>
-                <a class="footer__box-link" href="#">Careers</a>
-                <a class="footer__box-link" href="#">Privacy Policy</a>
-                <a class="footer__box-link" href="#">Contact</a>
-            </div>
-            <div class="footer__box">
-                <img src="./img/footer_logo.png" alt="footer logo">
-                <span>Lorem, ipsum dolor.</span>
-				<span>Lorem ipsum dolor sit.</span>
+                <img class="footer__image-logo" src="./img/footer_logo.png" alt="">
+                <span class="footer__box-info">Lorem, ipsum dolor.</span>
+				<span class="footer__box-info">Lorem ipsum dolor sit.</span>
             </div>
         </div>
     </footer>

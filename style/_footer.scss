@@ -1,57 +1,39 @@
 .footer {
     width: 100%;
     min-height: 30rem;
-    background: #3b3b3b;
+    background: $gray;
 
     &__container {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        // height: inherit;
-        padding-top:5rem;
-        
+        padding-top:5rem;    
     }
 
     &__box {
        min-width:20%;
-
-            span,
-            h4,
-            a,
-             {
-                width: 100%;
-                display: block;
-            }
-
-            span {
-                color: #fff;
-                font-size: 1.6rem;
-                line-height: 32px;
-                letter-spacing: 1px;
-
-            }
-
-            img {
-                padding-bottom: 2rem;
-            }
-        }
-
-    &__box-title {
-        color: #fff;
-        font-size: 1.6rem;
-        line-height: 32px;
-        letter-spacing: 1px;
     }
 
+    &__box-title,
+    &__box-info,
+    &__blox-link {
+        width: 100%;
+        display: block; 
+        @include footer-box-styles;
+    }
+        
+    &__list-item,
     &__box-link {
+        list-style: none;
         text-decoration: none;
-        color: #fff;
-        font-size: 1.6rem;
-        line-height: 32px;
-        letter-spacing: 1px;
-
-        &:hover{
+        @include footer-box-styles;
+            &:hover{
             opacity: 0.6;
-        }
+            }
     }
+
+    &__image-logo {
+        margin-bottom: 2rem;
+    }
+
 }

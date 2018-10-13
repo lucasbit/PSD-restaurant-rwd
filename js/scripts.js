@@ -10,19 +10,18 @@ document.addEventListener('DOMContentLoaded', function(){
     
     const dropDown = () => {
         if(!dropDownVisible) {
-            dropDownNavItems.classList.add('show');
-            dropDownNavItem.forEach(element => element.classList.add('show'));
-            dropDownNavItemLink.forEach(element => element.classList.add('show'));
+            dropDownNavItems.classList.add('header-show-mobile-menu');
+            dropDownNavItem.forEach(element => element.classList.add('header-show-mobile-menu'));
+            dropDownNavItemLink.forEach(element => element.classList.add('header-show-mobile-menu'));
             dropDownVisible = true;
         } else {
-            dropDownNavItems.classList.remove('show');
-            dropDownNavItem.forEach(element => element.classList.remove('show'));
-            dropDownNavItemLink.forEach(element => element.classList.remove('show'));
+            dropDownNavItems.classList.remove('header-show-mobile-menu');
+            dropDownNavItem.forEach(element => element.classList.remove('header-show-mobile-menu'));
+            dropDownNavItemLink.forEach(element => element.classList.remove('header-show-mobile-menu'));
             dropDownVisible = false;
         }
     }
-    burgerMenuBtn.addEventListener('click',dropDown);
-
+        burgerMenuBtn.addEventListener('click',dropDown);
 
     // show More btn///////////////
     const extraItems = document.querySelectorAll(".menu__hidden-items");
@@ -49,6 +48,7 @@ document.addEventListener('DOMContentLoaded', function(){
     showMoreBtn.addEventListener("click",showMenu);
     arrowDownMenu.addEventListener("click",showMenu);
     arrowUpMenu.addEventListener("click",showMenu);
+    
 
 });
 

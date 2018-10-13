@@ -3,59 +3,15 @@
     margin-top: 3rem;
 
     &__header {
-        display:flex;
-        justify-content: space-between;
-        padding:1%;
-    }
-
-    &__header-left {
-        display: flex;
-        align-items: center;
+        @include sections-headers-styles;
     }
 
     &__header-title {
-        color: #3b3b3b;
-        font-size: 2rem;
-        font-weight: bold;
-        text-transform: uppercase; 
+        @include sections-titles;
     }
 
     &__header-separator {
-        width: 14rem;
-        height: 1px;
-        background-color: #b7b7b7;
-        margin-left: 2rem;
-    }
-
-    &__header-control {
-        display: flex;
-    }
-
-    &__header-arrow-left {
-        width: 0; 
-        height: 0; 
-        border-top: 3rem solid transparent;
-        border-bottom: 3rem solid transparent;
-        border-right: 4rem solid#555;
-
-        &:hover {
-            opacity: 0.8;
-            cursor: pointer;
-        }
-    }
-
-    &__header-arrow-right {
-        width: 0; 
-        height: 0; 
-        border-top: 3rem solid transparent;
-        border-bottom: 3rem solid transparent;
-        border-left: 4rem solid #555;
-        margin-left: 4rem;
-
-        &:hover {
-            opacity: 0.8;
-            cursor: pointer;
-        }
+        @include sections-titles-separators;
     }
 
     &__items {
@@ -75,7 +31,7 @@
 
     &__item-name {
         width: 80%;
-        color: #555;
+        color: $secondgray;
         font-size: 1.6rem;
         font-weight: lighter;
     }
@@ -83,13 +39,13 @@
     &__item-price {
         width: 20%;
         text-align: right;
-        color: #555;
+        color: $secondgray;
         font-size: 1.6rem;
         font-weight: lighter;
     }
 
     &__item-stars {
-        color: #555;
+        color: $secondgray;
         font-size: 1.6rem;
         font-weight: lighter;
     }
@@ -97,4 +53,8 @@
     &__item-single-star {
         color: yellow;
     }
+}
+
+.fa-star {
+    color:gold;
 }

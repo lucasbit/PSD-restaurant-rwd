@@ -1,0 +1,46 @@
+//Header__nav font color
+$nav-color: #3b3b3b;
+
+//header__nav hover font and border color
+$nav-hover:#EB0F0F;
+
+// header baner title and desc font color
+$white:#fff;
+
+// sections titles
+$gray:#3b3b3b;
+
+// sections separators
+$lightgray:#b7b7b7;
+
+// slider items text color
+$secondgray:#555;
+
+@mixin sections-titles {
+    color: $gray;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@mixin sections-titles-separators {
+    width: 14rem;
+    height: 1px;
+    background-color:$lightgray;
+    margin-left: 2rem;
+}
+
+@mixin sections-headers-styles {
+        display: flex;
+        align-items: center;
+        padding: 5rem 0;
+        max-width: 100%;
+}
+
+@mixin footer-box-styles {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 32px;
+    letter-spacing: 1px;
+    
+}
